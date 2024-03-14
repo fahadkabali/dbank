@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  <head>
-    <title>DBank</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link type="text/css" rel="stylesheet" href="main.css" />
- 
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DBANK</title>
+</head>
 
-  <body>
+<body>
+  <div id="root">
     <div class="container">
-      <img src="logo.png" alt="DBank logo" width="100"/>
+      <img src="./assets/logo.png" alt="DBank logo" width="100"/>
       <h1>Current Balance: $<span id="value">234</span></h1>
       <div class="divider"></div>
       <form action="#">
@@ -22,6 +22,8 @@
       <input id="submit-btn" type="submit" value="Finalise Transaction" />
     </form>
     </div>
-  </body>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
 
 </html>
